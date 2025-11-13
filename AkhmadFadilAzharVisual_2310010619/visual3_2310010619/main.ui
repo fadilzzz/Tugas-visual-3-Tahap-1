@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Main</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHalaman">
+    <property name="title">
+     <string>Halaman</string>
+    </property>
+    <addaction name="actionUsers"/>
+    <addaction name="actionDzikirPlaylist"/>
+    <addaction name="actionZikirCounter"/>
+    <addaction name="actionShadaqahHistory"/>
+    <addaction name="actionPaymentType"/>
+   </widget>
+   <addaction name="menuHalaman"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUsers">
+   <property name="text">
+    <string>Users</string>
+   </property>
+  </action>
+  <action name="actionDzikirPlaylist">
+   <property name="text">
+    <string>DzikirPlaylist</string>
+   </property>
+  </action>
+  <action name="actionZikirCounter">
+   <property name="text">
+    <string>ZikirCounter</string>
+   </property>
+  </action>
+  <action name="actionShadaqahHistory">
+   <property name="text">
+    <string>ShadaqahHistory</string>
+   </property>
+  </action>
+  <action name="actionPaymentType">
+   <property name="text">
+    <string>PaymentType</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
